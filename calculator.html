@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Number Cruncher</title>
+	<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+	<form id="form1">
+		<h1 class="heading" style="text-align: center; font-size: 32px; font-weight: bold; margin-bottom: 10px; font-family: cursive;">NUMBER CRUNCHER !</h1>
+<p class="subheading" style="text-align: center; font-size: 16px; margin-bottom: 30px; font-family: cursive;"><b><i>Your Ultimate Calculation Companion</i></b></p>
+
+		<div class="calc-body">
+			<input type="text" class="txtbox" id="txtbox-1" placeholder="0"><br><br><br>
+			<!--<div id="btn-div-clr"><input type="reset" class="btn" value="CLEAR" id="btn-clr"></div>-->
+			<div class="btn-div-1">
+				<button type="button" class="btn" id="seven" onclick="appendInput(7)" >7</button>
+				<button type="button" class="btn" id="eight" onclick="appendInput(8)" >8</button>
+				<button type="button" class="btn" id="nine" onclick="appendInput(9)" >9</button>
+				<button type="button" class="btn btn-clear" id="add" onclick="appendInput('+')" >+</button>
+			</div>
+			<div class="btn-div-2">
+				<button type="button" class="btn" id="six" onclick="appendInput(6)" >6</button>
+				<button type="button" class="btn" id="five" onclick="appendInput(5)" >5</button>
+				<button type="button" class="btn" id="four" onclick="appendInput(4)" >4</button>
+				<button type="button" class="btn btn-clear" id="sub" onclick="appendInput('-')" >-</button>
+			</div>
+			<div class="btn-div-3">
+				<button type="button" class="btn" id="three" onclick="appendInput(3)" >3</button>
+				<button type="button" class="btn" id="two" onclick="appendInput(2)" >2</button>
+				<button type="button" class="btn" id="one" onclick="appendInput(1)" >1</button>
+				<button type="button" class="btn btn-clear" id="mul" onclick="appendInput('*')" >*</button>
+			</div>
+			<div class="btn-div-4">
+				<button type="button" class="btn" id="dot" onclick="appendInput(`.`)" >.</button>
+				<button type="button" class="btn" id="zero" onclick="appendInput(0)" >0</button>
+				<button type="button" class="btn" id="mod" onclick="appendInput(`%`)" >%</button>
+				<button type="button" class="btn btn-clear" id="div" onclick="appendInput('/')" >/</button>
+			</div>
+			<div class="btn-div-5">
+				<button type="button" class="btn btn-equal" id="result" onclick="calculateResult()" >=</button>
+				<button type="button" class="btn btn-clear" id="clr" onclick="clearInput()" >clear</button>
+			</div>
+		</div>
+	</form>
+	<script src="calculator.js">
+		
+	</script>
+</body>
+</html>
