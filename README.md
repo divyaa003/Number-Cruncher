@@ -25,4 +25,4 @@ You can access the calculator by opening the `index.html` file in a web browser.
   
 ## Author 📣
 - Divya
-  - GitHub: [YourGitHubUsername](https://github.com/divyaa003)
+  - GitHub: [divyaa003](https://github.com/divyaa003)
