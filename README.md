@@ -22,6 +22,9 @@ You can access the calculator by opening the `index.html` file in a web browser.
 - HTML
 - CSS
 - JavaScript
+
+  ## Demo 🎮
+You can try the Drum Kit live by visiting the [Demo](https://divyaa003.github.io/Number-Cruncher/).
   
 ## Author 📣
 - Divya
