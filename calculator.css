@@ -14,8 +14,7 @@ body {
 }
 
 .calc-body {
-	
-display: flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 300px; /* Adjusted calculator width */
@@ -24,6 +23,8 @@ display: flex;
 	border-radius: 10px; /* Adjusted calculator border radius */
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
 	padding: 20px; /* Added padding */
+	
+	
 }
 
 .txtbox {
