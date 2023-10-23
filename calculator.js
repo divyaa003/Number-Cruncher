@@ -6,7 +6,7 @@ function appendInput(number) {
 		function calculateResult() {
 			var inputElement = document.getElementById("txtbox-1");
 			var expression = inputElement.value;
-			var result = eval(expression); 
+			var result = eval(expression);
 			inputElement.value = result;
 		}
 
