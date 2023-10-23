@@ -7,8 +7,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #EAEAEA; /* New background color */
-	background-image: url(blurmat.png);
+	background-color: #1b1818; /* New background color */
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -70,8 +70,8 @@ body {
   font-size: 33px;
   color: black;
   border: none;
-  background-color: #007BFF; /* Blue shade */
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Added box shadow */
+  
+  box-shadow: 0 0 10px rgba(59, 38, 26, 0.5); /* Added box shadow */
   cursor: pointer;
   transform: translateY(-25px); /* Lift the buttons up by 2 pixels */
 }
